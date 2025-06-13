@@ -46,3 +46,31 @@ This project is built with:
 - React
 - shadcn-ui
 - Tailwind CSS
+
+# Instalación de Redmine 5.1 con PostgreSQL en Debian 12
+
+Este script instala Redmine 5.1 con Ruby 3.0.0 y PostgreSQL como base de datos en Debian 12.
+
+## Requisitos
+
+- Debian 12 limpio
+- Usuario con privilegios sudo
+- Acceso a internet
+
+## Instrucciones
+
+### 1. Dar permisos y ejecutar el script
+
+```bash
+chmod +x install_redmine.sh
+./install_redmine.sh
+```
+
+### 2. Acceder a Redmine
+
+```bash
+http://localhost:8080
+```
+
+Usuario: `admin`  
+Contraseña: `admin`
